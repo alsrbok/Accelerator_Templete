@@ -1,0 +1,21 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/PE_new_tb.v,1660793374,verilog,,,,PE_new_tb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/demux2_tb.v,1660027642,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/mux2.v,,demux2_tb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/mux_tb.v,1660028006,verilog,,,,mux2_tb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/rf_iw_sync_dpdb_tb.v,1660539576,verilog,,,,rf_iw_sync_dpdb_tb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/rf_psum_dpsb_tb.v,1659769351,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_psum_sync_dpdb.v,,rf_psum_dpsb_tb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/rf_psum_sync_dpdb_tb.v,1660543042,verilog,,,,rf_psum_sync_dpdb_tb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/MAC.v,1660617331,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/PE.v,,MAC,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/MAC_new.v,1660620682,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/PE_new.v,,MAC_new,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/PE.v,1660537683,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/demux2.v,,PE,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/PE_new.v,1660788084,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/demux2.v,,PE_new,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/demux2.v,1660027998,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/mux2.v,,demux2,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/mux2.v,1660014141,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_iw_sync_dpdb.v,,mux2,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_iw_sync_dpdb.v,1660025717,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_psum_sync_dpdb_new.v,,rf_iw_sync_dpdb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_psum_dpsb.v,1659765142,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/rf_psum_dpsb_tb.v,,rf_psum_dpsb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_psum_sync_dpdb.v,1660543620,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/PE_tb.v,,rf_psum_sync_dpdb,,,,,,,,
+C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_psum_sync_dpdb_new.v,1660620958,verilog,,C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/PE_new_tb.v,,rf_psum_sync_dpdb_new,,,,,,,,

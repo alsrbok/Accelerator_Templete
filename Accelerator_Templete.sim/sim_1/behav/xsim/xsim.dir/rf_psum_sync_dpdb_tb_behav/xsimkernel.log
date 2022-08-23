@@ -1,0 +1,7 @@
+Running: xsim.dir/rf_psum_sync_dpdb_tb_behav/xsimk.exe -simmode gui -wdb rf_psum_sync_dpdb_tb_behav.wdb -simrunnum 0 -socket 57607
+Design successfully loaded
+Design Loading Memory Usage: 7080 KB (Peak: 7080 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7620 KB (Peak: 7620 KB)
+Simulation CPU Usage: 46 ms

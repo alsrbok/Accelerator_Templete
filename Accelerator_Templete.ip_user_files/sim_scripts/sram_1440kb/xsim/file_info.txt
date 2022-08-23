@@ -1,0 +1,2 @@
+sram_1440kb.v,verilog,xil_defaultlib,../../../../Accelerator_Templete.gen/sources_1/ip/sram_1440kb/sim/sram_1440kb.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
