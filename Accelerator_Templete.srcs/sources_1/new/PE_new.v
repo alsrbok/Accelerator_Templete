@@ -8,14 +8,14 @@
 //------------------------------------------------------------+
 `timescale 1ns / 1ps
 
-module PE_new #(parameter IN_BITWIDTH = 16,         //For activation. weight, partial psum
-            parameter OUT_BITWIDTH = 16,        //For psum
-            parameter ACTV_ADDR_BITWIDTH = 2,   //Decide rf_input memory size
-            parameter ACTV_DEPTH = 4,          //ACTV_DEPTH = 2^(ACTV_ADDR_BITWIDTH)
-            parameter WGT_ADDR_BITWIDTH = 2,
-            parameter WGT_DEPTH = 4,
-            parameter PSUM_ADDR_BITWIDTH = 2,
-            parameter PSUM_DEPTH = 4)
+module PE_new #(parameter IN_BITWIDTH       = 16,  //For activation. weight, partial psum
+            parameter OUT_BITWIDTH          = 16,  //For psum
+            parameter ACTV_ADDR_BITWIDTH    = 2,   //Decide rf_input memory size
+            parameter ACTV_DEPTH            = 4,   //ACTV_DEPTH = 2^(ACTV_ADDR_BITWIDTH)
+            parameter WGT_ADDR_BITWIDTH     = 2,
+            parameter WGT_DEPTH             = 4,
+            parameter PSUM_ADDR_BITWIDTH    = 2,
+            parameter PSUM_DEPTH            = 4)
           ( input clk,
             input reset, input MAC_en, //enalbe signal for MAC from control logic
             input actv_en, actv_sel, input [ACTV_ADDR_BITWIDTH-1:0] actv_addr1, actv_addr2, input [IN_BITWIDTH-1:0] actv_data1, actv_data2,

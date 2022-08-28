@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Accelerator_Templete.srcs/sources_1/new/clk_gen.v" \
+"../../../../Accelerator_Templete.srcs/sources_1/new/demux2.v" \
+"../../../../Accelerator_Templete.srcs/sources_1/new/psum_gbf_db_new.v" \
+"../../../../Accelerator_Templete.srcs/sources_1/new/psum_gbf_su.v" \
+"../../../../Accelerator_Templete.srcs/sources_1/new/psum_su_irrel_new.v" \
+"../../../../Accelerator_Templete.srcs/sources_1/new/true_dp_ram.v" \
+"../../../../Accelerator_Templete.srcs/sim_1/new/psum_gbf_su_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

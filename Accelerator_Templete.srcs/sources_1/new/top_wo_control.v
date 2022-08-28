@@ -13,28 +13,28 @@
 
 module top_wo_control #(
                 //For SRAM parameter
-                parameter SRAM_DATA_BITWIDTH = 512,
-                parameter SRAM_ADDR_BITWIDTH = 12,
-                parameter SRAM_DEPTH = 2880,
+                parameter SRAM_DATA_BITWIDTH      = 512,
+                parameter SRAM_ADDR_BITWIDTH      = 12,
+                parameter SRAM_DEPTH              = 2880,
                 //For Weight Global Buffer parameter
-                parameter WGT_GBF_DATA_BITWIDTH = 512,
-                parameter WGT_GBF_ADDR_BITWIDTH = 5,
-                parameter WGT_GBF_DEPTH = 32,
+                parameter WGT_GBF_DATA_BITWIDTH   = 512,
+                parameter WGT_GBF_ADDR_BITWIDTH   = 5,
+                parameter WGT_GBF_DEPTH           = 32,
                 //For Activation Global Buffer parameter
-                parameter ACTV_GBF_DATA_BITWIDTH = 512,
-                parameter ACTV_GBF_ADDR_BITWIDTH = 5,
-                parameter ACTV_GBF_DEPTH = 32,
+                parameter ACTV_GBF_DATA_BITWIDTH  = 512,
+                parameter ACTV_GBF_ADDR_BITWIDTH  = 5,
+                parameter ACTV_GBF_DEPTH          = 32,
                 //For PE array
-                parameter ROW = 16,       //PE array row size
-                parameter COL = 16,                 //PE array column size
-                parameter IN_BITWIDTH = 16,         //For activation. weight, partial psum
-                parameter OUT_BITWIDTH = 16,        //For psum
-                parameter ACTV_ADDR_BITWIDTH = 2,   //Decide rf_input memory size
-                parameter ACTV_DEPTH = 4,          //ACTV_DEPTH = 2^(ACTV_ADDR_BITWIDTH)
-                parameter WGT_ADDR_BITWIDTH = 2,
-                parameter WGT_DEPTH = 4,
-                parameter PSUM_ADDR_BITWIDTH = 2,
-                parameter PSUM_DEPTH = 4 
+                parameter ROW                     = 16,       //PE array row size
+                parameter COL                     = 16,                 //PE array column size
+                parameter IN_BITWIDTH             = 16,         //For activation. weight, partial psum
+                parameter OUT_BITWIDTH            = 16,        //For psum
+                parameter ACTV_ADDR_BITWIDTH      = 2,   //Decide rf_input memory size
+                parameter ACTV_DEPTH              = 4,          //ACTV_DEPTH = 2^(ACTV_ADDR_BITWIDTH)
+                parameter WGT_ADDR_BITWIDTH       = 2,
+                parameter WGT_DEPTH               = 4,
+                parameter PSUM_ADDR_BITWIDTH      = 2,
+                parameter PSUM_DEPTH              = 4 
                 )
               ( //inputs from the top_module
                 input clk, reset,

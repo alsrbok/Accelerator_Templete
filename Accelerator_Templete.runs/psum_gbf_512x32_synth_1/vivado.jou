@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Aug 25 14:29:44 2022
+# Process ID: 1060
+# Current directory: C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.runs/psum_gbf_512x32_synth_1
+# Command line: vivado.exe -log psum_gbf_512x32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source psum_gbf_512x32.tcl
+# Log file: C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.runs/psum_gbf_512x32_synth_1/psum_gbf_512x32.vds
+# Journal file: C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.runs/psum_gbf_512x32_synth_1\vivado.jou
+# Running On: DESKTOP-FPT9UL1, OS: Windows, CPU Frequency: 3392 MHz, CPU Physical cores: 4, Host memory: 17115 MB
+#-----------------------------------------------------------
+source psum_gbf_512x32.tcl -notrace

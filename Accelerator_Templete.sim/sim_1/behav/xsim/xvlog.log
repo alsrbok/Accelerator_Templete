@@ -1,14 +1,14 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/MAC_new.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module MAC_new
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/PE_new.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module PE_new
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gen
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/demux2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module demux2
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/mux2.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module mux2
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_iw_sync_dpdb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rf_iw_sync_dpdb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/rf_psum_sync_dpdb_new.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module rf_psum_sync_dpdb_new
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/PE_new_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module PE_new_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/psum_gbf_db_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psum_gbf_db_new
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/psum_gbf_su.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psum_gbf_su
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/psum_su_irrel_new.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psum_su_irrel_new
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/new/true_dp_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module true_dp_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sim_1/new/psum_gbf_su_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psum_gbf_su_tb

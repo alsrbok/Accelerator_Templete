@@ -70,10 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "sram_1440kb_synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache C:/Users/VLSI/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-13588-DESKTOP-FPT9UL1/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -85,13 +81,14 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.cache/wt [current_project]
 set_property parent.project_path C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.xpr [current_project]
+set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo c:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet c:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/ip/sram_1440kb/sram_1440kb.xci
+read_ip -quiet C:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.srcs/sources_1/ip/sram_1440kb/sram_1440kb.xci
 set_property used_in_implementation false [get_files -all c:/Users/VLSI/Desktop/Vivado_Code/Accelerator_Templete/Accelerator_Templete.gen/sources_1/ip/sram_1440kb/sram_1440kb_ooc.xdc]
 
 OPTRACE "Adding files" END { }

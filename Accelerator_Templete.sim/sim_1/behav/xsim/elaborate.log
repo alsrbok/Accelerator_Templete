@@ -1,6 +1,6 @@
 Vivado Simulator v2021.2
 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PE_new_tb_behav xil_defaultlib.PE_new_tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot psum_gbf_su_tb_behav xil_defaultlib.psum_gbf_su_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -8,13 +8,12 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.rf_iw_sync_dpdb
-Compiling module xil_defaultlib.mux2
-Compiling module xil_defaultlib.rf_psum_sync_dpdb_new
-Compiling module xil_defaultlib.demux2
-Compiling module xil_defaultlib.demux2(WIDTH=5)
-Compiling module xil_defaultlib.MAC_new
-Compiling module xil_defaultlib.PE_new
-Compiling module xil_defaultlib.PE_new_tb
+Compiling module xil_defaultlib.clk_gen
+Compiling module xil_defaultlib.psum_su_irrel_new_default
+Compiling module xil_defaultlib.demux2(WIDTH=512)
+Compiling module xil_defaultlib.true_dp_ram(DEPTH=32)
+Compiling module xil_defaultlib.psum_gbf_db_new
+Compiling module xil_defaultlib.psum_gbf_su
+Compiling module xil_defaultlib.psum_gbf_su_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot PE_new_tb_behav
+Built simulation snapshot psum_gbf_su_tb_behav
