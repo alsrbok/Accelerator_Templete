@@ -23,6 +23,6 @@ In this case, psum_su_irrel_new.v try to finish the calculation of the partial s
 
 Detailed structure can be varied with the targeting accelerator.
 
-Following structure is for the spatial accelerator.
+Following structure is for the programmable/flexible accelerator.
 
 ![image](https://user-images.githubusercontent.com/43400865/188393720-401bcc15-d528-4ada-a17b-8b7d97ab3992.png)
